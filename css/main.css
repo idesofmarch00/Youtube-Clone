@@ -587,6 +587,10 @@ video {
   height: 20rem;
 }
 
+.w-full {
+  width: 100%;
+}
+
 .w-\[525px\] {
   width: 525px;
 }
@@ -609,10 +613,6 @@ video {
 
 .w-44 {
   width: 11rem;
-}
-
-.w-full {
-  width: 100%;
 }
 
 .w-40 {
