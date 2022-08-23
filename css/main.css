@@ -555,6 +555,10 @@ video {
   position: fixed;
 }
 
+.top-0 {
+  top: 0px;
+}
+
 .ml-2 {
   margin-left: 0.5rem;
 }
@@ -565,6 +569,14 @@ video {
 
 .flex {
   display: flex;
+}
+
+.h-full {
+  height: 100%;
+}
+
+.h-80 {
+  height: 20rem;
 }
 
 .h-14 {
@@ -583,12 +595,16 @@ video {
   height: 2.5rem;
 }
 
-.h-full {
-  height: 100%;
+.h-8 {
+  height: 2rem;
 }
 
-.h-80 {
-  height: 20rem;
+.w-full {
+  width: 100%;
+}
+
+.w-40 {
+  width: 10rem;
 }
 
 .w-20 {
@@ -597,10 +613,6 @@ video {
 
 .w-44 {
   width: 11rem;
-}
-
-.w-full {
-  width: 100%;
 }
 
 .w-\[525px\] {
@@ -619,16 +631,12 @@ video {
   width: 156px;
 }
 
-.w-40 {
-  width: 10rem;
+.flex-\[0_0_12\%\] {
+  flex: 0 0 12%;
 }
 
-.flex-\[0_0_30\%\] {
-  flex: 0 0 30%;
-}
-
-.flex-\[0_0_70\%\] {
-  flex: 0 0 70%;
+.flex-\[0_0_88\%\] {
+  flex: 0 0 88%;
 }
 
 .flex-row {
@@ -645,6 +653,10 @@ video {
 
 .items-center {
   align-items: center;
+}
+
+.justify-end {
+  justify-content: flex-end;
 }
 
 .justify-center {
@@ -665,18 +677,18 @@ video {
   margin-bottom: calc(2.5rem * var(--tw-space-y-reverse));
 }
 
-.space-x-3 > :not([hidden]) ~ :not([hidden]) {
+.space-x-5 > :not([hidden]) ~ :not([hidden]) {
   --tw-space-x-reverse: 0;
-  margin-right: calc(0.75rem * var(--tw-space-x-reverse));
-  margin-left: calc(0.75rem * calc(1 - var(--tw-space-x-reverse)));
+  margin-right: calc(1.25rem * var(--tw-space-x-reverse));
+  margin-left: calc(1.25rem * calc(1 - var(--tw-space-x-reverse)));
 }
 
 .rounded-full {
   border-radius: 9999px;
 }
 
-.rounded {
-  border-radius: 0.25rem;
+.rounded-3xl {
+  border-radius: 1.5rem;
 }
 
 .border {
@@ -692,19 +704,24 @@ video {
   border-color: rgb(156 163 175 / var(--tw-border-opacity));
 }
 
+.border-gray-600 {
+  --tw-border-opacity: 1;
+  border-color: rgb(75 85 99 / var(--tw-border-opacity));
+}
+
 .bg-\[rgb\(24\2c 24\2c 24\)\] {
   --tw-bg-opacity: 1;
   background-color: rgb(24 24 24 / var(--tw-bg-opacity));
 }
 
+.bg-red-900 {
+  --tw-bg-opacity: 1;
+  background-color: rgb(127 29 29 / var(--tw-bg-opacity));
+}
+
 .bg-\[rgb\(32\2c 32\2c 32\)\] {
   --tw-bg-opacity: 1;
   background-color: rgb(32 32 32 / var(--tw-bg-opacity));
-}
-
-.bg-green-300 {
-  --tw-bg-opacity: 1;
-  background-color: rgb(134 239 172 / var(--tw-bg-opacity));
 }
 
 .bg-slate-400 {
@@ -727,24 +744,36 @@ video {
   background-color: rgb(49 49 49 / var(--tw-bg-opacity));
 }
 
-.bg-yellow-300 {
+.bg-white {
   --tw-bg-opacity: 1;
-  background-color: rgb(253 224 71 / var(--tw-bg-opacity));
+  background-color: rgb(255 255 255 / var(--tw-bg-opacity));
 }
 
-.bg-red-300 {
-  --tw-bg-opacity: 1;
-  background-color: rgb(252 165 165 / var(--tw-bg-opacity));
+.px-3 {
+  padding-left: 0.75rem;
+  padding-right: 0.75rem;
 }
 
-.bg-red-900 {
-  --tw-bg-opacity: 1;
-  background-color: rgb(127 29 29 / var(--tw-bg-opacity));
+.pt-1 {
+  padding-top: 0.25rem;
+}
+
+.pb-2 {
+  padding-bottom: 0.5rem;
+}
+
+.text-justify {
+  text-align: justify;
 }
 
 .text-black {
   --tw-text-opacity: 1;
   color: rgb(0 0 0 / var(--tw-text-opacity));
+}
+
+.text-white {
+  --tw-text-opacity: 1;
+  color: rgb(255 255 255 / var(--tw-text-opacity));
 }
 
 .invert {
