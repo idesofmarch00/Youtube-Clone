@@ -575,6 +575,10 @@ video {
   margin-right: 0.75rem;
 }
 
+.mt-9 {
+  margin-top: 2.25rem;
+}
+
 .ml-2 {
   margin-left: 0.5rem;
 }
@@ -781,6 +785,10 @@ video {
 
 .pt-5 {
   padding-top: 1.25rem;
+}
+
+.pt-9 {
+  padding-top: 2.25rem;
 }
 
 .pt-1 {
