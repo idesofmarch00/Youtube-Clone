@@ -16,7 +16,7 @@
 
     <body class="bg-[rgb(24,24,24)] font-youtube ">
 
-      <!-- MAIN -->
+      <!-- MAIN -->   <!-- MAIN -->  <!-- MAIN -->
           <div class="absolute top-[113px] left-[230px] flex flex-col bg-[rgb(24,24,24)] text-black w-[1670px]">
             <!-- VIDEOS CARD LIST -->
             <div class="flex h-full px-20 pt-5">
@@ -74,7 +74,8 @@
                 <div class="flex flex-col w-40"><img class="h-64 w-36" src="img/short9.jpg" alt=""><p class="text-white text-base"><strong>Marvel Top 10 Highest Earning...</strong></p><p class="text-gray-400 text-sm">1M views</p></div>
               </div>
 
-              <div class="flex w-full justify-center items-center h-10 border-b-4 border-[#303030]"><i class="fa-solid fa-angle-down invert"></i></div>
+              <!-- Load More -->
+              <div class="flex w-full justify-center items-center h-10 border-b-4 border-[#303030] hover:bg-[rgb(55,55,55)]"><i class="fa-solid fa-angle-down invert"></i></div>
             </div>
 
             <!-- VIDEOS CARD LIST 2-->
@@ -112,43 +113,48 @@
           </body>
 
 
-      <!-- NAVBAR -->
+      <!-- FULL NAVBAR -->      <!-- FULL NAVBAR -->      <!-- FULL NAVBAR -->
       <div class="fixed top-0 flex w-full">
 
-        <!-- SIDE NAVBAR -->
-      <div class=" bg-[rgb(32,32,32)] flex flex-col flex-[0_0_12%] space-y-10 overflow-auto">
-        <!-- hamburger icon toggler -->
-        <div class="bg-slate-400 flex">img</div>
+        <!-- SIDE NAVBAR -->     <!-- SIDE NAVBAR -->     <!-- SIDE NAVBAR -->
+      <div class=" bg-[rgb(32,32,32)] flex flex-col flex-[0_0_12%] space-y-10 ">
+
+        <!-- Main Navbar Top Elements -->
+        <div class="flex h-14 justify-evenly items-center"><!-- hamburger icon toggler -->
+        <yt-icon id="guide-icon" icon="yt-icons:menu" class="style-scope ytd-masthead"><svg viewBox="0 0 24 24" preserveAspectRatio="xMidYMid meet" focusable="false" class="style-scope yt-icon" style="pointer-events: none; display: block; width: 24px; height: 24px;"><g class="style-scope yt-icon"><path d="M21,6H3V5h18V6z M21,11H3v1h18V11z M21,17H3v1h18V17z" class="style-scope yt-icon invert"></path></g></svg><!--css-build:shady--></yt-icon>
 
         <!-- youtube logo -->
-        <div class="bg-slate-400 flex">
-          <img src="img/YouTube.svg" alt="" class="w-20 h-14" />
-        </div>
-
-        <div class="bg-slate-400 h-24 w-44">
+          <img class="" src="img/YouTubeLogo.jpg" alt=""  />
+       </div>
+        
+        <!-- Sidebar Elements -->
+        <div class="flex flex-col overflow-auto text-white">
+          <div class="border-b-2 border-[#303030]">
           home explore shorts subs lib history your-videos watch-later showmore
         </div>
 
-        <div class="bg-slate-400 h-24 w-44">subs</div>
+        <div class="border-b-2 border-[#303030]">subs</div>
 
-        <div class="bg-slate-400 h-24 w-44">
+        <div class="border-b-2 border-[#303030]">
           EXPLORE Movies Gaming Live Fashion & Beauty Learning Sports
         </div>
 
-        <div class="bg-slate-400 h-24 w-44">
+        <div class="border-b-2 border-[#303030]">
           MORE FROM YOUTUBE YouTube Premium Creator Studio YouTube Music YouTube
           Kids YouTube TV
         </div>
 
-        <div class="bg-slate-400 h-24 w-44">
+        <div class="border-b-2 border-[#303030]">
           Settings Report history Help Send feedback
         </div>
 
-        <div class="bg-[rgb(55,55,55)] h-24 w-44">
+        <div class="border-b-2 border-[#303030]">
           footer 1:AboutPressCopyrightContact usCreatorsAdvertiseDevelopers
           footer2:TermsPrivacyPolicy & SafetyHow YouTube worksTest new features
           copyright
-        </div>
+        </div></div>
+
+        
       </div>
 
       <!-- HEADER -->
